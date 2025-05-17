@@ -1,0 +1,32 @@
+{
+  "name": "gocardless2gnucash",
+  "version": "0.1.0",
+  "description": "Scripts to connect GoCardless to GnuCash",
+  "keywords": [
+    "gnucash",
+    "gocardless"
+  ],
+  "homepage": "https://github.com/intropedro/gocardless2gnucash#readme",
+  "bugs": {
+    "url": "https://github.com/intropedro/gocardless2gnucash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intropedro/gocardless2gnucash.git"
+  },
+  "license": "ISC",
+  "author": "intropedro",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "menu": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.18",
+    "dotenv": "^16.5.0",
+    "readline-promise": "^1.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "xmlbuilder2": "^3.1.1"
+  }
+}
